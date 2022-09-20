@@ -1,0 +1,50 @@
+         /*principal*/
+         .novedades{
+            text-align: center;
+            font-size:xxx-large;
+            color: white;
+            background: rgb(0,0,1);
+            background: radial-gradient(circle, rgba(0,0,1,1) 0%, rgba(101,88,89,1) 96%);
+        }
+        
+        h3{
+            text-align: center;
+            font-size:xx-large;
+            color: white;
+        }
+        
+        .contenedor-productos{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px;
+        }
+        
+        .btn-comprar{
+            display: flex;
+            justify-content: center;
+            color: black;
+            background: rgb(7,19,133);
+            background: linear-gradient(326deg, rgba(7,19,133,1) 0%, rgba(123,149,186,1) 100%);
+        }
+        
+        .precio{
+            text-align: center;
+        }
+        
+        
+        .ver-mas{
+            color: white;
+            text-align: center;
+            margin: 40px;
+        }
+        
+        .btn-ver{
+            color: white;
+            background-color: #212529;
+        }
+        .btn-ver:hover{
+            color: rebeccapurple;
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        }
