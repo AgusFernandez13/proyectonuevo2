@@ -1,4 +1,6 @@
 @import"base/variables";
+@import"base/mixin";
+@import"base/maps";
 @import"componentes/header";
 @import"componentes/ofertas";
 @import"componentes/principal";
@@ -7,10 +9,10 @@
 
 
 @media only screen and (max-width: 576px){
-    .contenedor-productos{
+    .contenedor-productos .cards{
         display: grid;
         text-align: center;
-        justify-content: space-around;    
+        justify-content: space-between;    
         margin: 40px;
         padding: 20px;
 }

@@ -12,23 +12,22 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color:black;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .volver{
-    display: flex;
-    justify-content: center;
+    @include volver-mix();
     color: white;
     text-align: center;
     margin: 40px;
 }
 
 .volver:hover{
-    color: rebeccapurple;
-    background: rgb(60,65,71);
-    background: linear-gradient(326deg, rgba(60,65,71,1) 20%, rgba(7,19,133,1) 78%);
+    color: map-get($map: $volver, $key: color );
+    background: map-get($map: $volver, $key:bg );
+    background: map-get($map: $volver, $key:bg2 );
 
 }
